@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f5;
+    color: #00254d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Cover Photo */
+.cover-photo {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cover-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Profile Container */
+.profile-container {
+    width: 80%;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Cover Photo */
+.cover-photo {
+    height: 200px;
+    background: linear-gradient(to right, #00254d, #4a90e2);
+    position: relative;
+}
+
+.upload-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    padding: 8px 15px;
+    background-color: #ffffff;
+    border: 1px solid #00254d;
+    color: #00254d;
+    font-size: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.upload-btn:hover {
+    background-color: #00254d;
+    color: #ffffff;
+}
+
+/* Profile Info */
+.profile-info {
+    text-align: center;
+    padding: 20px;
+    margin-top: -60px;
+}
+
+.avatar {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.change-avatar,
+.delete-avatar {
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.change-avatar {
+    left: 0;
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.delete-avatar {
+    right: 0;
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.change-avatar:hover {
+    background-color: #3c8b3e;
+}
+
+.delete-avatar:hover {
+    background-color: #d32f2f;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Details Section */
+.details {
+    padding: 20px 40px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-row span {
+    font-size: 14px;
+}
+
+.detail-value {
+    font-weight: bold;
+}
+
+.edit-link,
+.upgrade-link,
+.signout-link {
+    font-size: 12px;
+    color: #4a90e2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-link:hover,
+.upgrade-link:hover,
+.signout-link:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

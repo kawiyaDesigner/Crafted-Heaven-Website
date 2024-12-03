@@ -1,0 +1,63 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"crafted_heaven"},
+{"type":"table","name":"admindetails","database":"crafted_heaven","data":
+[
+{"fname":"admin","lname":"admin1","mnumber":"5656","email":"admin1@gmail.com","password":"123","id":"1","image":"Premium Vector _ Man profile cartoon.jpeg"}
+]
+}
+,{"type":"table","name":"cart","database":"crafted_heaven","data":
+[
+{"id":"1","productid":"23","userid":"0","status":""},
+{"id":"2","productid":"23","userid":"7","status":""},
+{"id":"3","productid":"22","userid":"7","status":""},
+{"id":"4","productid":"23","userid":"9","status":"ordered"},
+{"id":"5","productid":"22","userid":"9","status":"ordered"}
+]
+}
+,{"type":"table","name":"drafts","database":"crafted_heaven","data":
+[
+{"id":"40","sitting":"sitting3","leg":"leg2","frame":"frame2","mat":"mat2","pillow":"pillow2","userid":"9"},
+{"id":"42","sitting":"sitting3","leg":"leg3","frame":"frame2","mat":"mat2","pillow":"pillow2","userid":"7"},
+{"id":"43","sitting":"sitting3","leg":"leg3","frame":"frame1","mat":"mat1","pillow":"pillow2","userid":"7"}
+]
+}
+,{"type":"table","name":"offers","database":"crafted_heaven","data":
+[
+{"id":"2","sellerid":"1","userid":"7","requestid":"8","price":"1","confirmation":"confirmed"},
+{"id":"4","sellerid":"1","userid":"9","requestid":"10","price":"29","confirmation":""},
+{"id":"5","sellerid":"1","userid":"9","requestid":"10","price":"29","confirmation":""},
+{"id":"14","sellerid":"1","userid":"7","requestid":"9","price":"8","confirmation":""},
+{"id":"15","sellerid":"1","userid":"7","requestid":"9","price":"1","confirmation":"confirmed"},
+{"id":"18","sellerid":"1","userid":"9","requestid":"10","price":"1","confirmation":""},
+{"id":"20","sellerid":"0","userid":"9","requestid":"10","price":"6","confirmation":""},
+{"id":"21","sellerid":"0","userid":"9","requestid":"10","price":"7","confirmation":""},
+{"id":"22","sellerid":"2","userid":"9","requestid":"10","price":"12","confirmation":""},
+{"id":"23","sellerid":"0","userid":"7","requestid":"9","price":"9","confirmation":""},
+{"id":"24","sellerid":"2","userid":"7","requestid":"8","price":"11","confirmation":"confirmed"}
+]
+}
+,{"type":"table","name":"products","database":"crafted_heaven","data":
+[
+{"id":"22","name":"asd","description":"sadss","price":"12","image":"product-3.png","sellerid":"1"}
+]
+}
+,{"type":"table","name":"requests","database":"crafted_heaven","data":
+[
+{"id":"8","design_id":"42","leg":"leg3","mat":"mat2","sitting":"sitting3","frame":"frame2","pillow":"pillow2","created_at":"2024-11-25 22:22:30","userid":"7"},
+{"id":"9","design_id":"43","leg":"leg3","mat":"mat1","sitting":"sitting3","frame":"frame1","pillow":"pillow2","created_at":"2024-11-25 22:25:40","userid":"7"},
+{"id":"10","design_id":"40","leg":"leg2","mat":"mat2","sitting":"sitting3","frame":"frame2","pillow":"pillow2","created_at":"2024-11-25 22:29:22","userid":"9"}
+]
+}
+,{"type":"table","name":"sellerdetails","database":"crafted_heaven","data":
+[
+{"id":"1","fname":"kawi","lname":"bandara","email":"kawiyadesigner@gmail.com","mnumber":"77773773","password":"123","image":"Premium Vector _ Man profile cartoon.jpeg","company":"seetha"},
+{"id":"2","fname":"sellers","lname":"asd","email":"seller@gmail.com","mnumber":"5656","password":"123","image":"default.jpeg","company":"arpico"}
+]
+}
+,{"type":"table","name":"userdetails","database":"crafted_heaven","data":
+[
+{"id":"10","fname":"kawishka","lname":"bandara","mnumber":"5656","email":"kawiyadesigner@gmail.com","password":"123","image":"Premium Vector _ Man profile cartoon.jpeg"}
+]
+}
+]

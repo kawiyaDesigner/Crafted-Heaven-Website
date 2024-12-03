@@ -1,0 +1,116 @@
+.card
+{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.j{
+    border:solid;
+    width: 50%;
+    height: 80%;
+    position: relative;
+ 
+   }     
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  background-image: url("furni6.png");
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  border:solid rgb(254, 255, 255);
+  width: 50%;
+  height: 80%;
+  position: relative;
+  padding: 40px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Full-width input fields */
+input[type=int],input[type=text], input[type=password] ,input[type=email] {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #7bfd6a;
+  font-size:15px;
+  border-radius: 25px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #95e27e;
+  outline: none;
+}
+
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #0f2b11;
+  color: rgb(247, 247, 247);
+  padding: 16px 20px;
+  margin: 8px 150px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  font-size:20px;
+  border-radius: 25px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+  background-color:#264728;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(70, 62, 54);
+}
+
+.file-input-container {
+  position: relative;
+
+}
+
+.file-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #ff4229;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.file-input-label:hover {
+  background-color: #0056b3;
+}
+
+.file-input-label:active {
+  background-color: #003f7f;
+}

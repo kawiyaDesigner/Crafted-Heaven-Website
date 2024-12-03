@@ -1,0 +1,108 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    font-family: Open Sans, sans-serif;
+  }
+  
+  .container {
+    
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .left-container{
+    margin-bottom: 80px;
+    height: 60%;
+    width: 60%;
+  }
+  
+  .sketchfab {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 150px;
+  }
+  
+  .image-button2{
+    width: 200px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  
+  .button-container{
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .image-button {
+    width: 100px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.image-button:hover {
+    border-color: #333; /* Change border color on hover */
+}
+
+/* Style for extra images 6.png, 7.png */
+.image-button2 {
+    width: 120px; /* Adjust the width as needed */
+    height: 75px; /* Adjust the height as needed */
+    margin-left: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.save-draft-btn {
+  background-color: #073f7b; /* Green background */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px 32px; /* Padding around the text */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor to indicate it is clickable */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  margin-top: 20px;
+}
+
+.save-draft-btn:hover {
+  background-color: #00254d; /* Slightly darker green on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.save-draft-btn:active {
+  background-color: #00254d; /* Even darker green when clicked */
+  transform: translateY(0); /* Reset the lift effect on click */
+}
+
+.save-draft-btn:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+.save-draft-btn:disabled {
+  background-color: #cccccc; /* Grey background when disabled */
+  cursor: not-allowed; /* Show a disabled cursor */
+}
+.button-container{
+  display: flex;
+  gap: 20px;
+}
+
+
